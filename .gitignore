@@ -1,0 +1,14 @@
+# Datasets & archives
+vfn_1_0/
+datasets/
+*.zip
+
+# Model weights & training outputs
+*.pt
+*.onnx
+runs/
+
+# Python & Jupyter
+__pycache__/
+.ipynb_checkpoints/
+myenv/
