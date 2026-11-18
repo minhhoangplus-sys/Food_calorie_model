@@ -1,0 +1,97 @@
+pair_type,img_a,split_a,img_b,split_b,md5_match,hamming_dist,removed_image,removed_split
+train-val,733586.jpg,train,733539.jpg,val,False,0,733586.jpg,train
+train-val,742399.jpg,train,742377.jpg,val,False,2,742399.jpg,train
+train-val,742409.jpg,train,742377.jpg,val,False,0,742409.jpg,train
+train-val,744167.jpg,train,744149.jpg,val,False,0,744167.jpg,train
+train-val,744175.jpg,train,744173.jpg,val,False,0,744175.jpg,train
+train-val,751434.jpg,train,751465.jpg,val,False,0,751434.jpg,train
+train-val,751476.jpg,train,751479.jpg,val,False,0,751476.jpg,train
+train-val,753144.jpg,train,753185.jpg,val,False,0,753144.jpg,train
+train-val,753174.jpg,train,753173.jpg,val,False,2,753174.jpg,train
+train-val,753218.jpg,train,753240.jpg,val,False,0,753218.jpg,train
+train-val,753223.jpg,train,753220.jpg,val,False,0,753223.jpg,train
+train-val,755939.jpg,train,755963.jpg,val,False,0,755939.jpg,train
+train-val,756240.jpg,train,733603.jpg,val,True,0,756240.jpg,train
+train-val,756265.jpg,train,756301.jpg,val,False,0,756265.jpg,train
+train-val,768717.jpg,train,825760.jpg,val,True,0,768717.jpg,train
+train-val,768921.jpg,train,825864.jpg,val,True,0,768921.jpg,train
+train-val,774117.jpg,train,742433.jpg,val,False,0,774117.jpg,train
+train-val,801361.jpg,train,828474.jpg,val,True,0,801361.jpg,train
+train-val,802555.jpg,train,754027.jpg,val,True,0,802555.jpg,train
+train-val,810667.jpg,train,827155.jpg,val,True,0,810667.jpg,train
+train-val,825738.jpg,train,768669.jpg,val,True,0,825738.jpg,train
+train-val,826298.jpg,train,799554.jpg,val,True,0,826298.jpg,train
+train-val,826342.jpg,train,828630.jpg,val,True,0,826342.jpg,train
+train-val,826408.jpg,train,828552.jpg,val,True,0,826408.jpg,train
+train-val,828422.jpg,train,798064.jpg,val,True,0,828422.jpg,train
+train-val,828464.jpg,train,774095.jpg,val,True,0,828464.jpg,train
+train-val,828503.jpg,train,799554.jpg,val,True,0,828503.jpg,train
+train-val,829316.jpg,train,830805.jpg,val,True,0,829316.jpg,train
+train-val,830723.jpg,train,829253.jpg,val,True,0,830723.jpg,train
+train-val,832620.jpg,train,826959.jpg,val,True,0,832620.jpg,train
+train-val,832685.jpg,train,826979.jpg,val,True,0,832685.jpg,train
+train-val,fd2c3ee9dc40dfe010b35d9b4e560c9f.jpg,train,747107eabfb7cd19b8abf7a51d77b903.jpg,val,False,0,fd2c3ee9dc40dfe010b35d9b4e560c9f.jpg,train
+train-test,721a9b8374342904a00d102dadbf44c5.jpg,train,5461dc825a7544dccc28ca271358970c.jpg,test,False,0,721a9b8374342904a00d102dadbf44c5.jpg,train
+train-test,735310.jpg,train,735279.jpg,test,False,0,735310.jpg,train
+train-test,742417.jpg,train,742394.jpg,test,False,0,742417.jpg,train
+train-test,744175.jpg,train,744172.jpg,test,True,0,744175.jpg,train
+train-test,753153.jpg,train,753126.jpg,test,True,0,753153.jpg,train
+train-test,753153.jpg,train,753178.jpg,test,False,0,753153.jpg,train
+train-test,753175.jpg,train,753126.jpg,test,False,0,753175.jpg,train
+train-test,753175.jpg,train,753178.jpg,test,False,0,753175.jpg,train
+train-test,753181.jpg,train,753126.jpg,test,False,0,753181.jpg,train
+train-test,753181.jpg,train,753178.jpg,test,False,0,753181.jpg,train
+train-test,753190.jpg,train,753126.jpg,test,False,0,753190.jpg,train
+train-test,753190.jpg,train,753178.jpg,test,False,0,753190.jpg,train
+train-test,753313.jpg,train,753317.jpg,test,False,4,753313.jpg,train
+train-test,754229.jpg,train,826227.jpg,test,False,4,754229.jpg,train
+train-test,754576.jpg,train,734665.jpg,test,False,0,754576.jpg,train
+train-test,755928.jpg,train,755929.jpg,test,False,0,755928.jpg,train
+train-test,756215.jpg,train,756282.jpg,test,True,0,756215.jpg,train
+train-test,756220.jpg,train,756264.jpg,test,False,0,756220.jpg,train
+train-test,756220.jpg,train,756276.jpg,test,False,0,756220.jpg,train
+train-test,756235.jpg,train,756285.jpg,test,True,0,756235.jpg,train
+train-test,756283.jpg,train,756252.jpg,test,True,0,756283.jpg,train
+train-test,762441.jpg,train,762443.jpg,test,False,0,762441.jpg,train
+train-test,768702.jpg,train,825750.jpg,test,True,0,768702.jpg,train
+train-test,768711.jpg,train,825754.jpg,test,True,0,768711.jpg,train
+train-test,768849.jpg,train,825832.jpg,test,True,0,768849.jpg,train
+train-test,799867.jpg,train,773359.jpg,test,False,0,799867.jpg,train
+train-test,801268.jpg,train,828470.jpg,test,True,0,801268.jpg,train
+train-test,810564.jpg,train,827137.jpg,test,True,0,810564.jpg,train
+train-test,810619.jpg,train,827147.jpg,test,True,0,810619.jpg,train
+train-test,810709.jpg,train,827163.jpg,test,True,0,810709.jpg,train
+train-test,815122.jpg,train,826488.jpg,test,True,0,815122.jpg,train
+train-test,825521.jpg,train,832635.jpg,test,True,0,825521.jpg,train
+train-test,826311.jpg,train,773257.jpg,test,True,0,826311.jpg,train
+train-test,826943.jpg,train,832572.jpg,test,True,0,826943.jpg,train
+train-test,827108.jpg,train,810386.jpg,test,True,0,827108.jpg,train
+train-test,827124.jpg,train,810470.jpg,test,True,0,827124.jpg,train
+train-test,828416.jpg,train,813219.jpg,test,True,0,828416.jpg,train
+train-test,828584.jpg,train,774543.jpg,test,True,0,828584.jpg,train
+train-test,829272.jpg,train,830744.jpg,test,True,0,829272.jpg,train
+train-test,829306.jpg,train,830792.jpg,test,True,0,829306.jpg,train
+train-test,829314.jpg,train,830801.jpg,test,True,0,829314.jpg,train
+train-test,829342.jpg,train,830843.jpg,test,True,0,829342.jpg,train
+train-test,830734.jpg,train,829263.jpg,test,True,0,830734.jpg,train
+train-test,830737.jpg,train,829266.jpg,test,True,0,830737.jpg,train
+train-test,830747.jpg,train,829274.jpg,test,True,0,830747.jpg,train
+train-test,830759.jpg,train,829284.jpg,test,True,0,830759.jpg,train
+train-test,830768.jpg,train,829293.jpg,test,True,0,830768.jpg,train
+train-test,830773.jpg,train,829294.jpg,test,True,0,830773.jpg,train
+train-test,830775.jpg,train,829295.jpg,test,True,0,830775.jpg,train
+train-test,830809.jpg,train,829319.jpg,test,True,0,830809.jpg,train
+train-test,831924.jpg,train,825764.jpg,test,True,0,831924.jpg,train
+train-test,832313.jpg,train,749474.jpg,test,True,0,832313.jpg,train
+train-test,832685.jpg,train,826839.jpg,test,True,0,832685.jpg,train
+val-test,734658.jpg,val,734629.jpg,test,True,0,NONE (val/test preserved),none
+val-test,744173.jpg,val,744172.jpg,test,False,0,NONE (val/test preserved),none
+val-test,825814.jpg,val,768803.jpg,test,True,0,NONE (val/test preserved),none
+val-test,826320.jpg,val,828544.jpg,test,True,0,NONE (val/test preserved),none
+val-test,826344.jpg,val,828632.jpg,test,True,0,NONE (val/test preserved),none
+val-test,826939.jpg,val,783097.jpg,test,True,0,NONE (val/test preserved),none
+val-test,826979.jpg,val,826839.jpg,test,True,0,NONE (val/test preserved),none
+val-test,828469.jpg,val,774176.jpg,test,True,0,NONE (val/test preserved),none
+val-test,828507.jpg,val,774400.jpg,test,True,0,NONE (val/test preserved),none
+val-test,828509.jpg,val,826304.jpg,test,True,0,NONE (val/test preserved),none
+val-test,829331.jpg,val,830827.jpg,test,True,0,NONE (val/test preserved),none
