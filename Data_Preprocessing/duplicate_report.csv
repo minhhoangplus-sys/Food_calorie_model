@@ -84,14 +84,14 @@ train-test,830809.jpg,train,829319.jpg,test,True,0,830809.jpg,train
 train-test,831924.jpg,train,825764.jpg,test,True,0,831924.jpg,train
 train-test,832313.jpg,train,749474.jpg,test,True,0,832313.jpg,train
 train-test,832685.jpg,train,826839.jpg,test,True,0,832685.jpg,train
-val-test,734658.jpg,val,734629.jpg,test,True,0,NONE (val/test preserved),none
-val-test,744173.jpg,val,744172.jpg,test,False,0,NONE (val/test preserved),none
-val-test,825814.jpg,val,768803.jpg,test,True,0,NONE (val/test preserved),none
-val-test,826320.jpg,val,828544.jpg,test,True,0,NONE (val/test preserved),none
-val-test,826344.jpg,val,828632.jpg,test,True,0,NONE (val/test preserved),none
-val-test,826939.jpg,val,783097.jpg,test,True,0,NONE (val/test preserved),none
-val-test,826979.jpg,val,826839.jpg,test,True,0,NONE (val/test preserved),none
-val-test,828469.jpg,val,774176.jpg,test,True,0,NONE (val/test preserved),none
-val-test,828507.jpg,val,774400.jpg,test,True,0,NONE (val/test preserved),none
-val-test,828509.jpg,val,826304.jpg,test,True,0,NONE (val/test preserved),none
-val-test,829331.jpg,val,830827.jpg,test,True,0,NONE (val/test preserved),none
+val-test,734658.jpg,val,734629.jpg,test,True,0,734658.jpg,val
+val-test,744173.jpg,val,744172.jpg,test,False,0,744173.jpg,val
+val-test,825814.jpg,val,768803.jpg,test,True,0,825814.jpg,val
+val-test,826320.jpg,val,828544.jpg,test,True,0,826320.jpg,val
+val-test,826344.jpg,val,828632.jpg,test,True,0,826344.jpg,val
+val-test,826939.jpg,val,783097.jpg,test,True,0,826939.jpg,val
+val-test,826979.jpg,val,826839.jpg,test,True,0,826979.jpg,val
+val-test,828469.jpg,val,774176.jpg,test,True,0,828469.jpg,val
+val-test,828507.jpg,val,774400.jpg,test,True,0,828507.jpg,val
+val-test,828509.jpg,val,826304.jpg,test,True,0,828509.jpg,val
+val-test,829331.jpg,val,830827.jpg,test,True,0,829331.jpg,val
