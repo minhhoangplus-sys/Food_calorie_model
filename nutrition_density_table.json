@@ -1,0 +1,478 @@
+{
+  "avocado": {
+    "yolo_id": 0,
+    "vfn_id": 4,
+    "class_name": "avocado",
+    "fdc_id": "171705",
+    "usda_description": "Avocados, raw, all commercial varieties",
+    "preparation_notes": "Raw, peeled and pitted edible portion",
+    "kcal_per_100g": 160.0,
+    "density_g_per_cm3": 0.96,
+    "density_source": "Literature/USDA volume-weight (approx. 146g/cup diced)",
+    "standard_serving_g": 75.0,
+    "portions_g": {
+      "Small": 56.2,
+      "Standard": 75.0,
+      "Large": 112.5
+    }
+  },
+  "bacon": {
+    "yolo_id": 1,
+    "vfn_id": 5,
+    "class_name": "bacon",
+    "fdc_id": "168322",
+    "usda_description": "Pork, cured, bacon, cooked, pan-fried",
+    "preparation_notes": "Pan-fried/baked crisp strips",
+    "kcal_per_100g": 541.0,
+    "density_g_per_cm3": 0.85,
+    "density_source": "Literature/bulk cooked strip estimate",
+    "standard_serving_g": 24.0,
+    "portions_g": {
+      "Small": 18.0,
+      "Standard": 24.0,
+      "Large": 36.0
+    }
+  },
+  "baked_beans": {
+    "yolo_id": 2,
+    "vfn_id": 7,
+    "class_name": "baked_beans",
+    "fdc_id": "175237",
+    "usda_description": "Beans, baked, canned, plain or vegetarian / with pork & tomato sauce",
+    "preparation_notes": "Canned baked beans in tomato sauce, heated",
+    "kcal_per_100g": 94.0,
+    "density_g_per_cm3": 1.07,
+    "density_source": "FAO/INFOODS / USDA cup weight (~254g/cup)",
+    "standard_serving_g": 130.0,
+    "portions_g": {
+      "Small": 97.5,
+      "Standard": 130.0,
+      "Large": 195.0
+    }
+  },
+  "baked_potato": {
+    "yolo_id": 3,
+    "vfn_id": 8,
+    "class_name": "baked_potato",
+    "fdc_id": "170093",
+    "usda_description": "Potatoes, baked, flesh and skin, without salt",
+    "preparation_notes": "Whole baked potato, plain",
+    "kcal_per_100g": 93.0,
+    "density_g_per_cm3": 0.98,
+    "density_source": "Food engineering solid potato density",
+    "standard_serving_g": 173.0,
+    "portions_g": {
+      "Small": 129.8,
+      "Standard": 173.0,
+      "Large": 259.5
+    }
+  },
+  "broccoli": {
+    "yolo_id": 4,
+    "vfn_id": 16,
+    "class_name": "broccoli",
+    "fdc_id": "170379",
+    "usda_description": "Broccoli, raw / steamed florets",
+    "preparation_notes": "Steamed or boiled florets, plain",
+    "kcal_per_100g": 35.0,
+    "density_g_per_cm3": 0.55,
+    "density_source": "Bulk floret density (USDA ~91g raw / ~156g cooked per cup)",
+    "standard_serving_g": 90.0,
+    "portions_g": {
+      "Small": 67.5,
+      "Standard": 90.0,
+      "Large": 135.0
+    }
+  },
+  "cabbage": {
+    "yolo_id": 5,
+    "vfn_id": 20,
+    "class_name": "cabbage",
+    "fdc_id": "169975",
+    "usda_description": "Cabbage, green, raw / boiled",
+    "preparation_notes": "Shredded or chopped green cabbage",
+    "kcal_per_100g": 25.0,
+    "density_g_per_cm3": 0.45,
+    "density_source": "Bulk shredded vegetable density (~89g/cup)",
+    "standard_serving_g": 85.0,
+    "portions_g": {
+      "Small": 63.8,
+      "Standard": 85.0,
+      "Large": 127.5
+    }
+  },
+  "carrot": {
+    "yolo_id": 6,
+    "vfn_id": 23,
+    "class_name": "carrot",
+    "fdc_id": "170393",
+    "usda_description": "Carrots, raw / cooked slices",
+    "preparation_notes": "Sliced or baby carrots, plain",
+    "kcal_per_100g": 41.0,
+    "density_g_per_cm3": 0.65,
+    "density_source": "Bulk sliced vegetable density (~128g/cup)",
+    "standard_serving_g": 80.0,
+    "portions_g": {
+      "Small": 60.0,
+      "Standard": 80.0,
+      "Large": 120.0
+    }
+  },
+  "cheese_burger": {
+    "yolo_id": 7,
+    "vfn_id": 24,
+    "class_name": "cheese_burger",
+    "fdc_id": "171448",
+    "usda_description": "Fast foods, cheeseburger, single, large patty, plain",
+    "preparation_notes": "Single beef patty with cheese on bun",
+    "kcal_per_100g": 263.0,
+    "density_g_per_cm3": 0.62,
+    "density_source": "Composite burger bulk density (bun + patty)",
+    "standard_serving_g": 165.0,
+    "portions_g": {
+      "Small": 123.8,
+      "Standard": 165.0,
+      "Large": 247.5
+    }
+  },
+  "chicken_breast": {
+    "yolo_id": 8,
+    "vfn_id": 26,
+    "class_name": "chicken_breast",
+    "fdc_id": "171079",
+    "usda_description": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+    "preparation_notes": "Roasted/grilled, boneless, skinless",
+    "kcal_per_100g": 165.0,
+    "density_g_per_cm3": 1.05,
+    "density_source": "Cooked lean poultry solid density",
+    "standard_serving_g": 150.0,
+    "portions_g": {
+      "Small": 112.5,
+      "Standard": 150.0,
+      "Large": 225.0
+    }
+  },
+  "chicken_tender": {
+    "yolo_id": 9,
+    "vfn_id": 28,
+    "class_name": "chicken_tender",
+    "fdc_id": "171477",
+    "usda_description": "Chicken breast tenders, breaded, cooked",
+    "preparation_notes": "Breaded and fried/baked chicken tenders",
+    "kcal_per_100g": 238.0,
+    "density_g_per_cm3": 0.85,
+    "density_source": "Bulk breaded poultry estimate",
+    "standard_serving_g": 120.0,
+    "portions_g": {
+      "Small": 90.0,
+      "Standard": 120.0,
+      "Large": 180.0
+    }
+  },
+  "chicken_thigh": {
+    "yolo_id": 10,
+    "vfn_id": 29,
+    "class_name": "chicken_thigh",
+    "fdc_id": "171092",
+    "usda_description": "Chicken, broilers or fryers, thigh, meat only, cooked, roasted",
+    "preparation_notes": "Cooked/roasted chicken thigh, meat only",
+    "kcal_per_100g": 209.0,
+    "density_g_per_cm3": 1.04,
+    "density_source": "Cooked poultry solid density",
+    "standard_serving_g": 135.0,
+    "portions_g": {
+      "Small": 101.2,
+      "Standard": 135.0,
+      "Large": 202.5
+    }
+  },
+  "chips": {
+    "yolo_id": 11,
+    "vfn_id": 31,
+    "class_name": "chips",
+    "fdc_id": "169677",
+    "usda_description": "Snacks, potato chips, plain, salted",
+    "preparation_notes": "Packaged/fried thin potato chips",
+    "kcal_per_100g": 536.0,
+    "density_g_per_cm3": 0.12,
+    "density_source": "FAO/INFOODS v2.0 (0.09-0.12 g/ml bulk)",
+    "standard_serving_g": 28.0,
+    "portions_g": {
+      "Small": 21.0,
+      "Standard": 28.0,
+      "Large": 42.0
+    }
+  },
+  "french_fries": {
+    "yolo_id": 12,
+    "vfn_id": 41,
+    "class_name": "french_fries",
+    "fdc_id": "170698",
+    "usda_description": "Fast foods, potato, french fried in vegetable oil",
+    "preparation_notes": "Deep-fried restaurant french fries, salted",
+    "kcal_per_100g": 312.0,
+    "density_g_per_cm3": 0.45,
+    "density_source": "Bulk pile density (air gaps between fries)",
+    "standard_serving_g": 117.0,
+    "portions_g": {
+      "Small": 87.8,
+      "Standard": 117.0,
+      "Large": 175.5
+    }
+  },
+  "fried_egg": {
+    "yolo_id": 13,
+    "vfn_id": 43,
+    "class_name": "fried_egg",
+    "fdc_id": "173417",
+    "usda_description": "Egg, whole, cooked, fried",
+    "preparation_notes": "Pan-fried whole egg",
+    "kcal_per_100g": 196.0,
+    "density_g_per_cm3": 1.03,
+    "density_source": "Whole egg physical density",
+    "standard_serving_g": 46.0,
+    "portions_g": {
+      "Small": 34.5,
+      "Standard": 46.0,
+      "Large": 69.0
+    }
+  },
+  "fried_rice": {
+    "yolo_id": 14,
+    "vfn_id": 44,
+    "class_name": "fried_rice",
+    "fdc_id": "167668",
+    "usda_description": "Restaurant, Chinese, fried rice, without meat",
+    "preparation_notes": "Stir-fried white rice with egg, oil, and veggies",
+    "kcal_per_100g": 174.0,
+    "density_g_per_cm3": 0.78,
+    "density_source": "FAO/INFOODS v2.0 mixed rice range (0.70-0.83 g/ml)",
+    "standard_serving_g": 180.0,
+    "portions_g": {
+      "Small": 135.0,
+      "Standard": 180.0,
+      "Large": 270.0
+    }
+  },
+  "green_beans": {
+    "yolo_id": 15,
+    "vfn_id": 46,
+    "class_name": "green_beans",
+    "fdc_id": "169961",
+    "usda_description": "Beans, snap, green, cooked, boiled, drained",
+    "preparation_notes": "Cooked/steamed green beans, plain",
+    "kcal_per_100g": 35.0,
+    "density_g_per_cm3": 0.52,
+    "density_source": "Bulk cooked pod density (~125g/cup)",
+    "standard_serving_g": 100.0,
+    "portions_g": {
+      "Small": 75.0,
+      "Standard": 100.0,
+      "Large": 150.0
+    }
+  },
+  "hash_brown": {
+    "yolo_id": 16,
+    "vfn_id": 48,
+    "class_name": "hash_brown",
+    "fdc_id": "169264",
+    "usda_description": "Potatoes, hash brown, frozen, plain, prepared",
+    "preparation_notes": "Pan-fried/griddled shredded potato patty",
+    "kcal_per_100g": 220.0,
+    "density_g_per_cm3": 0.65,
+    "density_source": "Literature shredded fried potato bulk density",
+    "standard_serving_g": 100.0,
+    "portions_g": {
+      "Small": 75.0,
+      "Standard": 100.0,
+      "Large": 150.0
+    }
+  },
+  "mashed_potatoes": {
+    "yolo_id": 17,
+    "vfn_id": 53,
+    "class_name": "mashed_potatoes",
+    "fdc_id": "168555",
+    "usda_description": "Potatoes, mashed, home-prepared, whole milk and butter added",
+    "preparation_notes": "Mashed with milk and butter",
+    "kcal_per_100g": 113.0,
+    "density_g_per_cm3": 0.92,
+    "density_source": "USDA cup weight (~210g/cup)",
+    "standard_serving_g": 175.0,
+    "portions_g": {
+      "Small": 131.2,
+      "Standard": 175.0,
+      "Large": 262.5
+    }
+  },
+  "meat_loaf": {
+    "yolo_id": 18,
+    "vfn_id": 54,
+    "class_name": "meat_loaf",
+    "fdc_id": "2706499",
+    "usda_description": "Meat loaf made with beef",
+    "preparation_notes": "Baked ground beef meatloaf slice",
+    "kcal_per_100g": 199.0,
+    "density_g_per_cm3": 1.02,
+    "density_source": "Cooked ground meat density",
+    "standard_serving_g": 135.0,
+    "portions_g": {
+      "Small": 101.2,
+      "Standard": 135.0,
+      "Large": 202.5
+    }
+  },
+  "pancake": {
+    "yolo_id": 19,
+    "vfn_id": 58,
+    "class_name": "pancake",
+    "fdc_id": "175009",
+    "usda_description": "Pancakes, plain, prepared from recipe",
+    "preparation_notes": "Plain griddled pancakes (no syrup)",
+    "kcal_per_100g": 227.0,
+    "density_g_per_cm3": 0.5,
+    "density_source": "Porous baked batter bulk density",
+    "standard_serving_g": 115.0,
+    "portions_g": {
+      "Small": 86.2,
+      "Standard": 115.0,
+      "Large": 172.5
+    }
+  },
+  "pasta": {
+    "yolo_id": 20,
+    "vfn_id": 59,
+    "class_name": "pasta",
+    "fdc_id": "169728",
+    "usda_description": "Pasta, fresh-refrigerated / enriched, plain, cooked",
+    "preparation_notes": "Boiled pasta, plain/light sauce",
+    "kcal_per_100g": 131.0,
+    "density_g_per_cm3": 0.57,
+    "density_source": "FAO/INFOODS v2.0 boiled pasta (0.55-0.59 g/ml)",
+    "standard_serving_g": 180.0,
+    "portions_g": {
+      "Small": 135.0,
+      "Standard": 180.0,
+      "Large": 270.0
+    }
+  },
+  "pizza": {
+    "yolo_id": 21,
+    "vfn_id": 60,
+    "class_name": "pizza",
+    "fdc_id": "173155",
+    "usda_description": "Fast foods, pizza, cheese topping, regular crust",
+    "preparation_notes": "Baked cheese/pepperoni regular-crust slice",
+    "kcal_per_100g": 266.0,
+    "density_g_per_cm3": 0.65,
+    "density_source": "Composite crust + cheese bulk density",
+    "standard_serving_g": 120.0,
+    "portions_g": {
+      "Small": 90.0,
+      "Standard": 120.0,
+      "Large": 180.0
+    }
+  },
+  "pork_chop": {
+    "yolo_id": 22,
+    "vfn_id": 61,
+    "class_name": "pork_chop",
+    "fdc_id": "168304",
+    "usda_description": "Pork, fresh, loin, center rib (chops), boneless, lean only, broiled",
+    "preparation_notes": "Pan-seared or broiled boneless pork chop",
+    "kcal_per_100g": 216.0,
+    "density_g_per_cm3": 1.05,
+    "density_source": "Cooked pork solid meat density",
+    "standard_serving_g": 140.0,
+    "portions_g": {
+      "Small": 105.0,
+      "Standard": 140.0,
+      "Large": 210.0
+    }
+  },
+  "shrimp": {
+    "yolo_id": 23,
+    "vfn_id": 65,
+    "class_name": "shrimp",
+    "fdc_id": "175180",
+    "usda_description": "Crustaceans, shrimp, cooked, moist heat",
+    "preparation_notes": "Boiled/steamed or grilled peeled shrimp",
+    "kcal_per_100g": 99.0,
+    "density_g_per_cm3": 0.9,
+    "density_source": "Cooked shellfish bulk/solid density",
+    "standard_serving_g": 100.0,
+    "portions_g": {
+      "Small": 75.0,
+      "Standard": 100.0,
+      "Large": 150.0
+    }
+  },
+  "steak": {
+    "yolo_id": 24,
+    "vfn_id": 67,
+    "class_name": "steak",
+    "fdc_id": "170024",
+    "usda_description": "Beef, top sirloin, steak, lean only, cooked, broiled",
+    "preparation_notes": "Grilled/broiled beef steak",
+    "kcal_per_100g": 191.0,
+    "density_g_per_cm3": 1.06,
+    "density_source": "Cooked beef solid density",
+    "standard_serving_g": 170.0,
+    "portions_g": {
+      "Small": 127.5,
+      "Standard": 170.0,
+      "Large": 255.0
+    }
+  },
+  "waffle": {
+    "yolo_id": 25,
+    "vfn_id": 77,
+    "class_name": "waffle",
+    "fdc_id": "175039",
+    "usda_description": "Waffles, plain, prepared from recipe",
+    "preparation_notes": "Plain baked waffle (no syrup)",
+    "kcal_per_100g": 291.0,
+    "density_g_per_cm3": 0.45,
+    "density_source": "Porous grid-pocket baked batter bulk density",
+    "standard_serving_g": 75.0,
+    "portions_g": {
+      "Small": 56.2,
+      "Standard": 75.0,
+      "Large": 112.5
+    }
+  },
+  "white_rice": {
+    "yolo_id": 26,
+    "vfn_id": 78,
+    "class_name": "white_rice",
+    "fdc_id": "168878",
+    "usda_description": "Rice, white, long-grain, regular, enriched, cooked",
+    "preparation_notes": "Steamed/boiled plain white rice",
+    "kcal_per_100g": 130.0,
+    "density_g_per_cm3": 0.73,
+    "density_source": "FAO/INFOODS v2.0 boiled white rice (0.73 g/ml)",
+    "standard_serving_g": 158.0,
+    "portions_g": {
+      "Small": 118.5,
+      "Standard": 158.0,
+      "Large": 237.0
+    }
+  },
+  "yeast_bread": {
+    "yolo_id": 27,
+    "vfn_id": 80,
+    "class_name": "yeast_bread",
+    "fdc_id": "174924",
+    "usda_description": "Bread, white, commercially prepared",
+    "preparation_notes": "Sliced yeast/white bread or dinner roll",
+    "kcal_per_100g": 265.0,
+    "density_g_per_cm3": 0.29,
+    "density_source": "FAO/INFOODS v2.0 white sliced bread (0.29 g/ml)",
+    "standard_serving_g": 50.0,
+    "portions_g": {
+      "Small": 37.5,
+      "Standard": 50.0,
+      "Large": 75.0
+    }
+  }
+}
