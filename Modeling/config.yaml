@@ -1,0 +1,43 @@
+# Step 4 configuration for YOLO training and validation-only benchmarking
+
+paths:
+  data_yaml: "../yolo_dataset/data.yaml"
+  runs_dir: "runs/detect"
+  models_export_dir: "models"
+  reports_dir: "reports"
+
+# Run tag -> Ultralytics pretrained checkpoint
+models:
+  yolov8n: "yolov8n.pt"
+  yolo11n: "yolo11n.pt"
+  # Optional 3rd candidate (uncomment or pass --models yolov8n yolo11n yolo26n):
+  # yolo26n: "yolo26n.pt"
+
+# Strict parity hyperparameters shared across all benchmarked models
+training:
+  imgsz: 640
+  epochs: 80
+  patience: 15
+  batch: 16
+  seed: 42
+  deterministic: true
+  workers: 4
+  device: null # Auto: "0" if CUDA is available else "cpu"
+  optimizer: "AdamW"
+  lr0: 0.001
+  cos_lr: true
+  fliplr: 0.5
+  scale: 0.5
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+
+benchmark:
+  split: "val" # Strictly enforced; never evaluate "test" during Step 4
+  iou_match_threshold: 0.50
+  predict_iou: 0.70
+  conf_thresholds: [0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60]
+  latency_warmup: 10
+  latency_gpu_images: 100
+  latency_cpu_images: 20
+  latency_target_ms: 100.0

@@ -1,0 +1,15 @@
+# Data Science dependencies for Multi-Item Food Detection & Calorie Calculation
+# Note: Your local myenv already has CUDA-enabled torch 2.14.0 installed.
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision
+transformers
+opencv-python
+pillow
+numpy
+pandas
+scipy
+pyyaml
+imagehash
+tqdm
+matplotlib
