@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generated_at_utc": "2026-11-19T09:23:47Z",
+    "generated_at_utc": "2026-11-25T04:31:54Z",
     "num_classes": 28,
     "usda_source": "USDA FoodData Central - SR Legacy (April 2018)",
     "density_source": "FAO/INFOODS Density Database v2.0 + USDA FDC volume-to-weight conversions",
@@ -138,28 +138,28 @@
     "baked_potato": {
       "yolo_id": 3,
       "class_name": "baked_potato",
-      "fdc_id": 170093,
-      "usda_description": "Potatoes, baked, flesh and skin, without salt",
-      "kcal_per_100g": 93.0,
-      "standard_serving_g": 173.0,
-      "preparation_notes": "Whole medium baked potato (flesh and skin), plain without added butter, sour cream, or salt.",
+      "fdc_id": 2709527,
+      "usda_description": "Potato, baked, peel eaten, with cheese",
+      "kcal_per_100g": 153.0,
+      "standard_serving_g": 315.0,
+      "preparation_notes": "Baked with skin, topped or stuffed with cheese (FNDDS record). A plain unfilled baked potato is lower (about 93 kcal/100 g).",
       "density_g_per_cm3": 1.05,
       "density_source": "Whole cooked potato tuber density estimate (~1.05 g/cm3; FAO boiled cubed bulk = 0.59 g/mL).",
       "portion_presets": {
         "Small": {
           "multiplier": 0.75,
-          "grams": 129.8,
-          "kcal": 120.7
+          "grams": 236.2,
+          "kcal": 361.4
         },
         "Standard": {
           "multiplier": 1.0,
-          "grams": 173.0,
-          "kcal": 160.9
+          "grams": 315.0,
+          "kcal": 481.9
         },
         "Large": {
           "multiplier": 1.5,
-          "grams": 259.5,
-          "kcal": 241.3
+          "grams": 472.5,
+          "kcal": 722.9
         }
       }
     },
@@ -198,7 +198,7 @@
       "usda_description": "Cabbage, raw",
       "kcal_per_100g": 25.0,
       "standard_serving_g": 89.0,
-      "preparation_notes": "Raw chopped or shredded cabbage without heavy mayonnaise/oil dressing (1 cup chopped).",
+      "preparation_notes": "Raw cabbage. Dressed coleslaw (about 100 kcal/100 g) or oil-cooked cabbage is higher, so energy may be underestimated for those.",
       "density_g_per_cm3": 0.38,
       "density_source": "USDA FDC 169975 volume-to-weight (1 cup chopped raw = 89 g / 236.59 cm3 = 0.376 g/cm3).",
       "portion_presets": {
@@ -226,7 +226,7 @@
       "usda_description": "Carrots, raw",
       "kcal_per_100g": 41.0,
       "standard_serving_g": 122.0,
-      "preparation_notes": "Raw sliced, shredded, or stick carrots, plain without glaze or butter (1 cup strips/slices).",
+      "preparation_notes": "Raw carrot. Roasted or glazed carrot with oil or butter is higher; the effect per serving is small.",
       "density_g_per_cm3": 0.54,
       "density_source": "FAO/INFOODS v2.0 ('Carrot, raw, chopped' = 0.54 g/mL, KEN; matches USDA 128 g/cup = 0.541 g/cm3).",
       "portion_presets": {
@@ -362,28 +362,28 @@
     "chips": {
       "yolo_id": 11,
       "class_name": "chips",
-      "fdc_id": 169677,
-      "usda_description": "Snacks, potato chips, plain, salted",
-      "kcal_per_100g": 532.0,
+      "fdc_id": 167558,
+      "usda_description": "Snacks, tortilla chips, plain, white corn, salted",
+      "kcal_per_100g": 472.0,
       "standard_serving_g": 28.0,
-      "preparation_notes": "Fried/baked crispy salted snack chips (potato/tortilla chips), served dry (1 oz / ~22 chips).",
+      "preparation_notes": "Plain salted tortilla (corn) chips, served dry. Nachos with cheese or toppings are higher in energy per serving and are not modelled.",
       "density_g_per_cm3": 0.09,
       "density_source": "FAO/INFOODS v2.0 ('Potato chips' = 0.09 g/mL, RC).",
       "portion_presets": {
         "Small": {
           "multiplier": 0.75,
           "grams": 21.0,
-          "kcal": 111.7
+          "kcal": 99.1
         },
         "Standard": {
           "multiplier": 1.0,
           "grams": 28.0,
-          "kcal": 149.0
+          "kcal": 132.2
         },
         "Large": {
           "multiplier": 1.5,
           "grams": 42.0,
-          "kcal": 223.4
+          "kcal": 198.2
         }
       }
     },
@@ -561,25 +561,25 @@
       "fdc_id": 174035,
       "usda_description": "Beef, ground, 85% lean meat / 15% fat, loaf, cooked, baked",
       "kcal_per_100g": 240.0,
-      "standard_serving_g": 140.0,
-      "preparation_notes": "Baked 85% lean ground beef loaf, sliced, without extra brown gravy (1 slice ~5 oz).",
+      "standard_serving_g": 85.0,
+      "preparation_notes": "Baked 85% lean ground beef loaf, sliced, without extra brown gravy (USDA household portion: 3 oz = 85 g, a small slice; larger slices are covered by the Large preset or manual gram input).",
       "density_g_per_cm3": 0.98,
       "density_source": "Solid baked ground beef loaf estimate (~0.98 g/cm3; slightly below intact steak 1.05).",
       "portion_presets": {
         "Small": {
           "multiplier": 0.75,
-          "grams": 105.0,
-          "kcal": 252.0
+          "grams": 63.8,
+          "kcal": 153.1
         },
         "Standard": {
           "multiplier": 1.0,
-          "grams": 140.0,
-          "kcal": 336.0
+          "grams": 85.0,
+          "kcal": 204.0
         },
         "Large": {
           "multiplier": 1.5,
-          "grams": 210.0,
-          "kcal": 504.0
+          "grams": 127.5,
+          "kcal": 306.0
         }
       }
     },
@@ -617,25 +617,25 @@
       "fdc_id": 169737,
       "usda_description": "Pasta, cooked, enriched, without added salt",
       "kcal_per_100g": 158.0,
-      "standard_serving_g": 140.0,
-      "preparation_notes": "Boiled enriched wheat pasta (spaghetti/penne/macaroni), drained, excluding heavy sauces (1 cup).",
+      "standard_serving_g": 120.0,
+      "preparation_notes": "Plain cooked pasta, no sauce. Pasta with cheese sauce (e.g. mac and cheese) is in a similar range per 100 g.",
       "density_g_per_cm3": 0.59,
       "density_source": "FAO/INFOODS v2.0 ('Pasta/ noodles, boiled' = 0.59 g/mL, KEN).",
       "portion_presets": {
         "Small": {
           "multiplier": 0.75,
-          "grams": 105.0,
-          "kcal": 165.9
+          "grams": 90.0,
+          "kcal": 142.2
         },
         "Standard": {
           "multiplier": 1.0,
-          "grams": 140.0,
-          "kcal": 221.2
+          "grams": 120.0,
+          "kcal": 189.6
         },
         "Large": {
           "multiplier": 1.5,
-          "grams": 210.0,
-          "kcal": 331.8
+          "grams": 180.0,
+          "kcal": 284.4
         }
       }
     },
